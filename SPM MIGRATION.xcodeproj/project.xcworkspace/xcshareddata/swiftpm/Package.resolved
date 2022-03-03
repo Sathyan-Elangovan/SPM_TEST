@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "8c65ddf756c633d01d9ae01092bf72f0c66dfc60",
+          "version": "7.0.0"
+        }
+      },
+      {
+        "package": "Kommunicate",
+        "repositoryURL": "https://github.com/Sathyan-Elangovan/Kommunicate-iOS-SDK.git",
+        "state": {
+          "branch": null,
+          "revision": "a4e2320d66dc6c3178f765181985d448e7c0b290",
+          "version": null
+        }
+      },
+      {
+        "package": "KommunicateChatUI-iOS-SDK",
+        "repositoryURL": "https://github.com/Sathyan-Elangovan/KommunicateChatUI-iOS-SDK.git",
+        "state": {
+          "branch": null,
+          "revision": "f12a25339efef49fd3e6d5efb944dd1d25650705",
+          "version": null
+        }
+      },
+      {
+        "package": "KommunicateCore_iOS_SDK",
+        "repositoryURL": "https://github.com/Sathyan-Elangovan/KommunicateCore-iOS-SDK.git",
+        "state": {
+          "branch": null,
+          "revision": "fdaca8c16f47a56972710bd9d37ccf13c0266991",
+          "version": null
+        }
+      },
+      {
+        "package": "SwipeCellKit",
+        "repositoryURL": "https://github.com/SwipeCellKit/SwipeCellKit.git",
+        "state": {
+          "branch": null,
+          "revision": "7219cad3098637176ace311510d11467dbfb9bb0",
+          "version": "2.7.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

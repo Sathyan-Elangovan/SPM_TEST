@@ -13,6 +13,7 @@
 		A19EBA3427D0969500A64118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3227D0969500A64118 /* Main.storyboard */; };
 		A19EBA3627D0969900A64118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3527D0969900A64118 /* Assets.xcassets */; };
 		A19EBA3927D0969900A64118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3727D0969900A64118 /* LaunchScreen.storyboard */; };
+		A19EBA4227D0971500A64118 /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A19EBA4127D0971500A64118 /* Kommunicate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19EBA4227D0971500A64118 /* Kommunicate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "SPM MIGRATION";
+			packageProductDependencies = (
+				A19EBA4127D0971500A64118 /* Kommunicate */,
+			);
 			productName = "SPM MIGRATION";
 			productReference = A19EBA2927D0969500A64118 /* SPM MIGRATION.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = A19EBA2027D0969500A64118;
+			packageReferences = (
+				A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
+			);
 			productRefGroup = A19EBA2A27D0969500A64118 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sathyan-Elangovan/Kommunicate-iOS-SDK.git";
+			requirement = {
+				kind = revision;
+				revision = a4e2320d66dc6c3178f765181985d448e7c0b290;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A19EBA4127D0971500A64118 /* Kommunicate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */;
+			productName = Kommunicate;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A19EBA2127D0969500A64118 /* Project object */;
 }

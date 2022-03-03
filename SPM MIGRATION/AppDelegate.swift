@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kommunicate
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Kommunicate.setup(applicationId: "18ae6ce9d4f469f95c9c095fb5b0bda44")
+
         return true
     }
 
