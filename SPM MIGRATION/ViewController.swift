@@ -74,6 +74,16 @@ class ViewController: UIViewController {
 
     }
 
+    
+    @IBAction func logoutTapped(_ sender: Any){
+        activityIndicator.startAnimating()
+        print("logout tapped")
+        Kommunicate.logoutUser(completion: {_ in
+            activityIndicator.stopAnimating()
+            print("user logged out")
+        })
+
+    }
 
 }
 
