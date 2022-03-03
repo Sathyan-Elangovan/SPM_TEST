@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         activityIndicator.startAnimating()
         print("logout tapped")
         Kommunicate.logoutUser(completion: {_ in
-            activityIndicator.stopAnimating()
+            self.activityIndicator.stopAnimating()
             print("user logged out")
         })
 
