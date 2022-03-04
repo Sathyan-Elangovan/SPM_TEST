@@ -22,9 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         setUpNavigationBarAppearance()
 
         UNUserNotificationCenter.current().delegate = self
-        let upperCaseRegex = "(?s)[^A-Z]*[A-Z].*"
 
-        Kommunicate.defaultConfiguration.restrictedMessageRegexPattern = upperCaseRegex
         registerForNotification()
         KMPushNotificationHandler.shared.dataConnectionNotificationHandlerWith(Kommunicate.defaultConfiguration, Kommunicate.kmConversationViewConfiguration)
         let kmApplocalNotificationHandler = KMAppLocalNotification.appLocalNotificationHandler()
@@ -38,6 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 viewController.modalPresentationStyle = .fullScreen
                 window?.makeKeyAndVisible()
                 window?.rootViewController!.present(viewController, animated: true, completion: nil)
+//                DispatchQueue.main.async { [weak self] in
+//                    self?.window?.rootViewController!.present(viewController, animated: true, completion: nil)
+//                }
             }
         }
         return true
