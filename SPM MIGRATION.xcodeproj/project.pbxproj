@@ -377,7 +377,7 @@
 			repositoryURL = "https://github.com/Sathyan-Elangovan/Kommunicate-iOS-SDK.git";
 			requirement = {
 				kind = revision;
-				revision = a4e2320d66dc6c3178f765181985d448e7c0b290;
+				revision = a3b999bd410f6612d709e12d1033fd98ac9a7594;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

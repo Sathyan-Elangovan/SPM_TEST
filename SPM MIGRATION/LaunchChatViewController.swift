@@ -35,19 +35,21 @@ class LaunchChatViewController: UIViewController, ALKCustomEventCallback {
     }
 
     @IBAction func launchConversation(_: Any) {
-//        activityIndicator.startAnimating()
-//        view.isUserInteractionEnabled = false
-//        Kommunicate.subscribeCustomEvents(events: eventList, callback: self)
-        Kommunicate.showConversations(from: self)
+        activityIndicator.startAnimating()
+        view.isUserInteractionEnabled = false
+//      
+     
+
+       
       
-//        Kommunicate.createAndShowConversation(from: self, completion: {
-//            error in
-//            self.activityIndicator.stopAnimating()
-//            self.view.isUserInteractionEnabled = true
-//            if error != nil {
-//                print("Error while launching")
-//            }
-//        })
+        Kommunicate.createAndShowConversation(from: self, completion: {
+            error in
+            self.activityIndicator.stopAnimating()
+            self.view.isUserInteractionEnabled = true
+            if error != nil {
+                print("Error while launching")
+            }
+        })
     }
 
     @IBAction func logoutAction(_: Any) {

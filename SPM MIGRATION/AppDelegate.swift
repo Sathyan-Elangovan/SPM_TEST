@@ -22,7 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         setUpNavigationBarAppearance()
 
         UNUserNotificationCenter.current().delegate = self
-
+        let upperCaseRegex = "(?s)[^A-Z]*[A-Z].*"
+//        Kommunicate.defaultConfiguration.restrictedMessageRegexPattern = upperCaseRegex
         registerForNotification()
         KMPushNotificationHandler.shared.dataConnectionNotificationHandlerWith(Kommunicate.defaultConfiguration, Kommunicate.kmConversationViewConfiguration)
         let kmApplocalNotificationHandler = KMAppLocalNotification.appLocalNotificationHandler()
