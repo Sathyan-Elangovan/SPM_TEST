@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A178056427E9ACDA005A0A09 /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A178056327E9ACDA005A0A09 /* Kommunicate */; };
 		A19EBA2D27D0969500A64118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA2C27D0969500A64118 /* AppDelegate.swift */; };
 		A19EBA2F27D0969500A64118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA2E27D0969500A64118 /* SceneDelegate.swift */; };
 		A19EBA3127D0969500A64118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA3027D0969500A64118 /* ViewController.swift */; };
 		A19EBA3427D0969500A64118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3227D0969500A64118 /* Main.storyboard */; };
 		A19EBA3627D0969900A64118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3527D0969900A64118 /* Assets.xcassets */; };
 		A19EBA3927D0969900A64118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19EBA3727D0969900A64118 /* LaunchScreen.storyboard */; };
-		A19EBA4227D0971500A64118 /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A19EBA4127D0971500A64118 /* Kommunicate */; };
 		A19EBA4427D0E32E00A64118 /* LaunchChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA4327D0E32E00A64118 /* LaunchChatViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A19EBA4227D0971500A64118 /* Kommunicate in Frameworks */,
+				A178056427E9ACDA005A0A09 /* Kommunicate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			);
 			name = "SPM MIGRATION";
 			packageProductDependencies = (
-				A19EBA4127D0971500A64118 /* Kommunicate */,
+				A178056327E9ACDA005A0A09 /* Kommunicate */,
 			);
 			productName = "SPM MIGRATION";
 			productReference = A19EBA2927D0969500A64118 /* SPM MIGRATION.app */;
@@ -120,7 +120,7 @@
 			);
 			mainGroup = A19EBA2027D0969500A64118;
 			packageReferences = (
-				A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
+				A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
 			);
 			productRefGroup = A19EBA2A27D0969500A64118 /* Products */;
 			projectDirPath = "";
@@ -372,20 +372,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
+		A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sathyan-Elangovan/Kommunicate-iOS-SDK.git";
 			requirement = {
 				kind = revision;
-				revision = 8ed6148b2dedda7cbf781234410964100211357f;
+				revision = 9079e6437d20bfb86346347ef652b86799e7eaba;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A19EBA4127D0971500A64118 /* Kommunicate */ = {
+		A178056327E9ACDA005A0A09 /* Kommunicate */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A19EBA4027D0971500A64118 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */;
+			package = A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */;
 			productName = Kommunicate;
 		};
 /* End XCSwiftPackageProductDependency section */

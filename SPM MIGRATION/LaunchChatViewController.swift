@@ -35,21 +35,63 @@ class LaunchChatViewController: UIViewController, ALKCustomEventCallback {
     }
 
     @IBAction func launchConversation(_: Any) {
-        activityIndicator.startAnimating()
-        view.isUserInteractionEnabled = false
+//        activityIndicator.startAnimating()
+//        view.isUserInteractionEnabled = false
 //      
-     
+       // Kommunicate.subscribeCustomEvents(events: eventList, callback: self)
+        Kommunicate.showConversations(from: self)
+//        let conversationId = "69976153"
+//        Kommunicate.showConversationWith(groupId: "69976153", from: self, prefilledMessage: "Hi how are you doing") { (success) in
+//              }
+        
+//        let kmConversation = KMConversationBuilder()
+//            // Optional. If Agent Id is not set, then default agent will
+//            // automatically get selected. AGENT_Id is the email Id used to signup
+//            // on Kommunicate dashboard.
+//
+//            //  To add the agents to conversations directly pass the AgentId parameter
+//            .withAgentIds( ["sathyan.elangovan@kommunicate.io"])
+//
+//            // Using BotIds parameter the bots can be added to the conversations
+//            .withBotIds(["pakka-h9zut"])
+//
+//            // To set the conversation assignee, pass AgentId or BotId.
+//            .withConversationAssignee("sathyan.elangovan@kommunicate.io")
+//
+//            // To pass metadata
+//            .withMetaData(["key":"value"])
+//
+//            // To set the custom title
+//            .withConversationTitle("Support query 1")
+//
+//            .useLastConversation(false)
+//            .build()
 
-       
+//        Kommunicate.createConversation(conversation: kmConversation) { result in
+//            switch result {
+//            case .success(let conversationId):
+//                print("Conversation id: ",conversationId)
+//                Kommunicate.showConversationWith(
+//                    groupId: conversationId,
+//                    from: self,
+//                    showListOnBack: false, // If true, then the conversation list will be shown on tap of the back button.
+//                    completionHandler: { success in
+//                    print("conversation was shown")
+//                })
+//            // Launch conversation
+//            case .failure(let kmConversationError):
+//                print("Failed to create a conversation: ", kmConversationError)
+//            }
+//        }
       
-        Kommunicate.createAndShowConversation(from: self, completion: {
-            error in
-            self.activityIndicator.stopAnimating()
-            self.view.isUserInteractionEnabled = true
-            if error != nil {
-                print("Error while launching")
-            }
-        })
+//        Kommunicate.createAndShowConversation(from: self, completion: {
+//            error in
+//            self.activityIndicator.stopAnimating()
+//            self.view.isUserInteractionEnabled = true
+//            if error != nil {
+//                print("Error while launching")
+//            }
+//        })
     }
 
     @IBAction func logoutAction(_: Any) {

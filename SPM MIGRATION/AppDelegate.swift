@@ -11,6 +11,8 @@ import Kommunicate
 import UIKit
 import UserNotifications
 
+//9079e6437d20bfb86346347ef652b86799e7eaba
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     var window: UIWindow?
