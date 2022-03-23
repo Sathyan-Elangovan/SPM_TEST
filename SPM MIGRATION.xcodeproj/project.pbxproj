@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A178056427E9ACDA005A0A09 /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A178056327E9ACDA005A0A09 /* Kommunicate */; };
+		A14544B227EAE8AD0000681C /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A14544B127EAE8AD0000681C /* Kommunicate */; };
 		A19EBA2D27D0969500A64118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA2C27D0969500A64118 /* AppDelegate.swift */; };
 		A19EBA2F27D0969500A64118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA2E27D0969500A64118 /* SceneDelegate.swift */; };
 		A19EBA3127D0969500A64118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19EBA3027D0969500A64118 /* ViewController.swift */; };
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A178056427E9ACDA005A0A09 /* Kommunicate in Frameworks */,
+				A14544B227EAE8AD0000681C /* Kommunicate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			);
 			name = "SPM MIGRATION";
 			packageProductDependencies = (
-				A178056327E9ACDA005A0A09 /* Kommunicate */,
+				A14544B127EAE8AD0000681C /* Kommunicate */,
 			);
 			productName = "SPM MIGRATION";
 			productReference = A19EBA2927D0969500A64118 /* SPM MIGRATION.app */;
@@ -120,7 +120,7 @@
 			);
 			mainGroup = A19EBA2027D0969500A64118;
 			packageReferences = (
-				A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
+				A14544B027EAE8AD0000681C /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */,
 			);
 			productRefGroup = A19EBA2A27D0969500A64118 /* Products */;
 			projectDirPath = "";
@@ -372,20 +372,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
+		A14544B027EAE8AD0000681C /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sathyan-Elangovan/Kommunicate-iOS-SDK.git";
 			requirement = {
 				kind = revision;
-				revision = 9079e6437d20bfb86346347ef652b86799e7eaba;
+				revision = e36f0cc979e598f97209c8462fdac0bdbcf35615;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A178056327E9ACDA005A0A09 /* Kommunicate */ = {
+		A14544B127EAE8AD0000681C /* Kommunicate */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A178056227E9ACDA005A0A09 /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */;
+			package = A14544B027EAE8AD0000681C /* XCRemoteSwiftPackageReference "Kommunicate-iOS-SDK" */;
 			productName = Kommunicate;
 		};
 /* End XCSwiftPackageProductDependency section */
